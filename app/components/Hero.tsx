@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="w-full min-h-[90vh] flex items-center bg-[#FCEE0C] border-b-4 border-black relative overflow-hidden"
+      className="w-full min-h-[90vh] flex items-center bg-[#FCEE0C] border-b-4 border-black relative overflow-hidden cursor-default"
     >
       {/* Decorative dot grid background */}
       <div
@@ -22,20 +22,21 @@ export default function Hero() {
           <div className="lg:col-span-7 flex flex-col gap-6 items-start z-20">
             <div className="inline-block bg-white border-4 border-black px-4 py-2 brutalist-shadow-sm transform -rotate-2">
               <span className="font-bold text-xl md:text-2xl uppercase tracking-widest text-black">
-                Hello, World! I am
+                #!/bin/bash -xe
               </span>
             </div>
 
             <h1 className="text-6xl sm:text-7xl md:text-8xl lg:text-9xl font-black uppercase leading-[0.9] tracking-tighter text-black brutalist-title">
-              Creative <br />
-              <span className="text-[#FF4500] inline-block mt-2 transform hover:scale-105 transition-transform duration-300 origin-left">
-                Developer
+              Cydnirn <br />
+              <span className="text-[#FF4500] inline-block mt-2 transform hover:scale-105 transition-transform duration-300 origin-left ">
+                SENO AJI
               </span>
             </h1>
 
-            <p className="text-lg md:text-2xl font-bold max-w-2xl bg-white p-5 border-4 border-black brutalist-shadow-sm mt-4 leading-snug">
-              Building raw, memorable, and high-performance digital experiences.
-              I blend strong engineering with bold visual aesthetics.
+            <p className="text-lg md:text-2xl font-bold max-w-2xl bg-white p-5 border-4 border-black brutalist-shadow-sm mt-4 leading-snug cursor-text">
+              I do stuff, interesting stuff sort of. Crafted IoT, Cloud
+              Solutions, and Web Applications. Currently interested in
+              Full-Stack Development with a bit of Web3.
             </p>
 
             <div className="flex flex-wrap gap-6 mt-8">
@@ -84,14 +85,14 @@ export default function Hero() {
       <div className="absolute bottom-0 w-full bg-black text-[#FCEE0C] py-3 border-t-4 border-black overflow-hidden flex whitespace-nowrap">
         <div className="animate-marquee flex space-x-8 text-2xl font-black uppercase tracking-wider">
           <span>
-            UI/UX DESIGN • FULL STACK DEVELOPMENT • REACT SPECIALIST • CREATIVE
-            CODING • UI/UX DESIGN • FULL STACK DEVELOPMENT • REACT SPECIALIST •
-            CREATIVE CODING
+            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT •
+            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT •
+            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT
           </span>
           <span>
-            UI/UX DESIGN • FULL STACK DEVELOPMENT • REACT SPECIALIST • CREATIVE
-            CODING • UI/UX DESIGN • FULL STACK DEVELOPMENT • REACT SPECIALIST •
-            CREATIVE CODING
+            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT •
+            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT •
+            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT
           </span>
         </div>
       </div>
