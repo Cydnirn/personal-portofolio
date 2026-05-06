@@ -19,7 +19,7 @@ export const links: Route.LinksFunction = () => [
   },
   {
     rel: "stylesheet",
-    href: "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap",
+    href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap",
   },
 ];
 
@@ -62,14 +62,20 @@ export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {
   }
 
   return (
-    <main className="pt-16 p-4 container mx-auto">
-      <h1>{message}</h1>
-      <p>{details}</p>
-      {stack && (
-        <pre className="w-full p-4 overflow-x-auto">
-          <code>{stack}</code>
-        </pre>
-      )}
+    <main className="min-h-screen flex flex-col items-center justify-center p-8 bg-[#FCEE0C]">
+      <div className="brutalist-card p-8 max-w-2xl w-full">
+        <h1 className="text-6xl font-black uppercase mb-4 text-[#FF4500] brutalist-title">
+          {message}
+        </h1>
+        <p className="text-xl font-bold mb-6 border-b-4 border-black pb-4">
+          {details}
+        </p>
+        {stack && (
+          <pre className="w-full p-4 overflow-x-auto bg-black text-[#FCEE0C] font-mono mt-4 border-4 border-black">
+            <code>{stack}</code>
+          </pre>
+        )}
+      </div>
     </main>
   );
 }
