@@ -21,7 +21,7 @@ export default function Navbar() {
               to="/"
               className="text-3xl font-black tracking-tighter uppercase text-black hover:text-[#FF4500] transition-colors"
             >
-              PORT<span className="text-[#FF4500]">FOLIO</span>
+              CYD<span className="text-[#FF4500]">NIRN</span>
             </Link>
           </div>
 
@@ -49,12 +49,32 @@ export default function Navbar() {
             >
               <span className="sr-only">Open main menu</span>
               {isOpen ? (
-                <svg className="block h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                  <path strokeLinecap="square" strokeLinejoin="miter" strokeWidth="3" d="M6 18L18 6M6 6l12 12" />
+                <svg
+                  className="block h-6 w-6"
+                  stroke="currentColor"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="square"
+                    strokeLinejoin="miter"
+                    strokeWidth="3"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
                 </svg>
               ) : (
-                <svg className="block h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                  <path strokeLinecap="square" strokeLinejoin="miter" strokeWidth="3" d="M4 6h16M4 12h16M4 18h16" />
+                <svg
+                  className="block h-6 w-6"
+                  stroke="currentColor"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="square"
+                    strokeLinejoin="miter"
+                    strokeWidth="3"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
                 </svg>
               )}
             </button>

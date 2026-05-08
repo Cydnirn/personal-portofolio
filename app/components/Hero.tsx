@@ -22,7 +22,7 @@ export default function Hero() {
           <div className="lg:col-span-7 flex flex-col gap-6 items-start z-20">
             <div className="inline-block bg-white border-4 border-black px-4 py-2 brutalist-shadow-sm transform -rotate-2">
               <span className="font-bold text-xl md:text-2xl uppercase tracking-widest text-black">
-                #!/bin/bash -xe
+                ./welcome.sh
               </span>
             </div>
 
@@ -85,14 +85,16 @@ export default function Hero() {
       <div className="absolute bottom-0 w-full bg-black text-[#FCEE0C] py-3 border-t-4 border-black overflow-hidden flex whitespace-nowrap">
         <div className="animate-marquee flex space-x-8 text-2xl font-black uppercase tracking-wider">
           <span>
-            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT •
-            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT •
-            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT
+            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT • IOT
+            • UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT •
+            IOT • UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT
+            • IOT •
           </span>
           <span>
-            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT •
-            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT •
-            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT
+            UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT • IOT
+            • UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT •
+            IOT • UI/UX DESIGN • FULL STACK DEVELOPMENT • AWS SOLUTION ARCHITECT
+            • IOT •
           </span>
         </div>
       </div>
