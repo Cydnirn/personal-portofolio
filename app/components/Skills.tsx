@@ -121,10 +121,10 @@ export default function Skills() {
             <div>
               <div className="flex justify-between font-bold uppercase mb-2 text-lg">
                 <span>Logic & Backend</span>
-                <span>55%</span>
+                <span>65%</span>
               </div>
               <div className="w-full h-8 bg-gray-200 border-4 border-black">
-                <div className="h-full bg-black border-r-4 border-black w-[55%] relative overflow-hidden">
+                <div className="h-full bg-black border-r-4 border-black w-[65%] relative overflow-hidden">
                   <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPgo8cmVjdCB3aWR0aD0iOCIgaGVpZ2h0PSI4IiBmaWxsPSIjMDAwIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDBMOCA4Wk04IDBMMCA4WiIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiPjwvcGF0aD4KPC9zdmc+')] opacity-50"></div>
                 </div>
               </div>
