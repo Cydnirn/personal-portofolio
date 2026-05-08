@@ -116,9 +116,9 @@ export default function Portfolio() {
 
                 {/* Actions */}
                 <div className="flex flex-wrap gap-4 border-t-4 border-black pt-6">
-                  {project.liveLink && (
+                  {project?.liveLink && (
                     <Button
-                      href={project.liveLink}
+                      href={project?.liveLink}
                       className="flex-1 brutalist-button text-sm sm:text-base"
                       sx={{ borderRadius: 0 }}
                     >
@@ -131,7 +131,7 @@ export default function Portfolio() {
                     aria-label="View Source Code"
                     sx={{ borderRadius: 0 }}
                   >
-                    {!project.liveLink && (
+                    {!project?.liveLink && (
                       <span className="px-3 py-1 text-black font-bold uppercase text-xs sm:text-sm">
                         See on Github
                       </span>
