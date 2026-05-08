@@ -49,7 +49,7 @@ export default function Contact() {
           <div className="flex flex-col gap-8">
             {/* Email Block */}
             <a
-              href="mailto:hello@example.com"
+              href="mailto:cydnirn.dev@gmail.com"
               className="bg-white border-4 border-black p-6 md:p-10 brutalist-shadow group transform transition-transform hover:-translate-y-2 hover:-translate-x-2 flex flex-col items-center sm:items-start text-center sm:text-left"
             >
               <span className="text-sm font-black uppercase tracking-widest text-gray-500 mb-2 block">
