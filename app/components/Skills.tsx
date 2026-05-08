@@ -106,25 +106,25 @@ export default function Skills() {
         {/* Decorative Progress Bars */}
         <div className="mt-20 bg-white border-4 border-black p-6 md:p-10 brutalist-shadow">
           <h3 className="text-3xl font-black uppercase mb-8 text-black border-b-4 border-black pb-2 inline-block">
-            Power Levels
+            Project Portion
           </h3>
           <div className="space-y-6">
             <div>
               <div className="flex justify-between font-bold uppercase mb-2 text-lg">
-                <span>UI / UX Construction</span>
-                <span>95%</span>
+                <span>Frontend</span>
+                <span>35%</span>
               </div>
               <div className="w-full h-8 bg-gray-200 border-4 border-black">
-                <div className="h-full bg-[#FCEE0C] border-r-4 border-black w-[95%]"></div>
+                <div className="h-full bg-[#FCEE0C] border-r-4 border-black w-[35%]"></div>
               </div>
             </div>
             <div>
               <div className="flex justify-between font-bold uppercase mb-2 text-lg">
                 <span>Logic & Backend</span>
-                <span>85%</span>
+                <span>55%</span>
               </div>
               <div className="w-full h-8 bg-gray-200 border-4 border-black">
-                <div className="h-full bg-black border-r-4 border-black w-[85%] relative overflow-hidden">
+                <div className="h-full bg-black border-r-4 border-black w-[55%] relative overflow-hidden">
                   <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjgiPgo8cmVjdCB3aWR0aD0iOCIgaGVpZ2h0PSI4IiBmaWxsPSIjMDAwIj48L3JlY3Q+CjxwYXRoIGQ9Ik0wIDBMOCA4Wk04IDBMMCA4WiIgc3Ryb2tlPSIjMzMzIiBzdHJva2Utd2lkdGg9IjEiPjwvcGF0aD4KPC9zdmc+')] opacity-50"></div>
                 </div>
               </div>
