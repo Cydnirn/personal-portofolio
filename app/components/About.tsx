@@ -41,12 +41,13 @@ export default function About() {
               <div className="space-y-6 text-lg md:text-xl font-bold text-black leading-relaxed">
                 <p>
                   I'm a software developer who believes the web shouldn't be
-                  boring. My background blends formal computer science with an
-                  obsession for unconventional design and raw user experiences.
+                  boring (Well life should't be). My background blends software
+                  development with an obsession for unconventional design and
+                  raw user experiences.
                 </p>
                 <p>
                   Specializing in React, Node.js, and Cloud Computing, I build
-                  applications that don't just function flawlessly—they make a
+                  applications that don't just function flawlessly, they make a
                   statement. Whether it's a corporate dashboard or a creative
                   portfolio, I bring high contrast and high performance to every
                   project.
@@ -57,7 +58,7 @@ export default function About() {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-10">
                 <div className="bg-white border-4 border-black p-4 brutalist-shadow-sm text-center transform hover:-translate-y-1 transition-transform">
                   <span className="block text-3xl font-black text-[#FF4500]">
-                    5+
+                    3+
                   </span>
                   <span className="block text-sm font-bold uppercase mt-1">
                     Years Exp
@@ -65,7 +66,7 @@ export default function About() {
                 </div>
                 <div className="bg-white border-4 border-black p-4 brutalist-shadow-sm text-center transform hover:-translate-y-1 transition-transform">
                   <span className="block text-3xl font-black text-[#FF4500]">
-                    50+
+                    10+
                   </span>
                   <span className="block text-sm font-bold uppercase mt-1">
                     Projects
