@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <Link
               to="/"
               className="text-3xl font-black tracking-tighter uppercase text-black hover:text-[#FF4500] transition-colors"

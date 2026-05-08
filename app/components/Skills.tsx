@@ -87,7 +87,7 @@ export default function Skills() {
                 {category.icon}
               </div>
 
-              <CardContent className="p-6 bg-[#FCEE0C] flex-grow">
+              <CardContent className="p-6 bg-[#FCEE0C] grow">
                 <div className="flex flex-wrap gap-3">
                   {category.skills.map((skill) => (
                     <span

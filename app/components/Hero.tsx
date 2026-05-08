@@ -56,7 +56,7 @@ export default function Hero() {
           </div>
 
           {/* Abstract Visual Elements */}
-          <div className="hidden lg:flex lg:col-span-5 justify-center items-center relative h-[500px]">
+          <div className="hidden lg:flex lg:col-span-5 justify-center items-center relative h-125">
             {/* Background Shape */}
             <div className="w-80 h-80 bg-[#FF4500] border-4 border-black brutalist-shadow rounded-full absolute top-10 right-0 animate-pulse"></div>
 

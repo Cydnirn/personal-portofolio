@@ -139,7 +139,7 @@ export default function Portfolio() {
                   </Button>
                   <IconButton
                     href={project.githubLink}
-                    className="flex-none p-3 border-4 border-black bg-white hover:bg-[#FCEE0C] transition-colors flex items-center justify-center brutalist-shadow-sm hover:translate-x-[-2px] hover:translate-y-[-2px] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none"
+                    className="flex-none p-3 border-4 border-black bg-white hover:bg-[#FCEE0C] transition-colors flex items-center justify-center brutalist-shadow-sm hover:translate-x-0.5 hover:translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5 active:shadow-none"
                     aria-label="View Source Code"
                     sx={{ borderRadius: 0 }}
                   >

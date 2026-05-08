@@ -8,7 +8,7 @@ import Contact from "../components/Contact";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Creative Developer | Portfolio" },
+    { title: "Cydnirn | Portfolio" },
     {
       name: "description",
       content:
