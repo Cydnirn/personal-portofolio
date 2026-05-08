@@ -68,7 +68,6 @@ export default function About() {
                   <span className="block text-3xl font-black text-[#FF4500]">
                     10+
                   </span>
-                  science
                   <span className="block text-sm font-bold uppercase mt-1">
                     Projects
                   </span>
