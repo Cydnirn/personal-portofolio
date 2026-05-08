@@ -3,48 +3,34 @@ import { Button, IconButton } from "@mui/material";
 
 const projects = [
   {
-    title: "E-Commerce Brutal",
+    title: "Blockchain Demo Project",
     description:
-      "A high-conversion online store with a raw, memorable design that defies conventional UI patterns.",
+      "A demo project that showcases a basic blockchain system with TUI using .NET Core.",
     image:
       "https://images.unsplash.com/photo-1661956602116-aa6865609028?q=80&w=800&auto=format&fit=crop",
-    tech: ["Next.js", "Tailwind CSS", "Stripe", "Zustand"],
-    liveLink: "#",
-    githubLink: "#",
+    tech: [".NET Core"],
+    githubLink: "https://github.com/Cydnirn/blockchain-demo",
     color: "bg-[#FCEE0C]",
   },
   {
-    title: "Crypto Tracker",
+    title: "Terminal MP3 Media Player",
     description:
-      "Real-time analytics platform for traders focusing on high-performance data visualization and speed.",
+      "A terminal-based MP3 media player that allows users to play, pause, and navigate through their music library from the command line.",
     image:
       "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=800&auto=format&fit=crop",
-    tech: ["TypeScript", "React", "D3.js", "WebSockets"],
-    liveLink: "#",
-    githubLink: "#",
+    tech: ["C++"],
+    githubLink: "https://github.com/Cydnirn/MP3MediaPlayer",
     color: "bg-[#FF4500]",
   },
   {
-    title: "Agency Landing",
+    title: "IoT Student Attendance",
     description:
-      "Award-winning landing page for a creative agency pushing the boundaries of web animation and typography.",
+      "A web application that allows students to mark their attendance using IoT devices.",
     image:
       "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=800&auto=format&fit=crop",
-    tech: ["HTML5", "CSS3", "GSAP", "Vanilla JS"],
-    liveLink: "#",
-    githubLink: "#",
+    tech: ["ESP32", "Express", "C++"],
+    githubLink: "https://github.com/Cydnirn/espAuthAbsent",
     color: "bg-white",
-  },
-  {
-    title: "Task Master",
-    description:
-      "A no-nonsense productivity tool built specifically for developers who hate clutter and love keyboard shortcuts.",
-    image:
-      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?q=80&w=800&auto=format&fit=crop",
-    tech: ["React Native", "Firebase", "Redux Toolkit"],
-    liveLink: "#",
-    githubLink: "#",
-    color: "bg-[#FCEE0C]",
   },
 ];
 
@@ -53,7 +39,7 @@ export default function Portfolio() {
     <section id="portfolio" className="py-24 bg-black border-b-4 border-black">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6 cursor-default">
           <div>
             <div className="inline-block bg-[#FF4500] px-4 py-1 mb-6 border-2 border-black transform rotate-2">
               <span className="text-white font-black text-lg uppercase tracking-widest">
@@ -67,7 +53,7 @@ export default function Portfolio() {
 
           <div className="hidden md:block">
             <Button
-              href="https://github.com"
+              href="https://github.com/Cydnirn"
               target="_blank"
               rel="noreferrer"
               className="brutalist-button alt"
@@ -130,19 +116,26 @@ export default function Portfolio() {
 
                 {/* Actions */}
                 <div className="flex flex-wrap gap-4 border-t-4 border-black pt-6">
-                  <Button
-                    href={project.liveLink}
-                    className="flex-1 brutalist-button text-sm sm:text-base"
-                    sx={{ borderRadius: 0 }}
-                  >
-                    Live Demo <OpenInNew className="ml-2" fontSize="small" />
-                  </Button>
+                  {project.liveLink && (
+                    <Button
+                      href={project.liveLink}
+                      className="flex-1 brutalist-button text-sm sm:text-base"
+                      sx={{ borderRadius: 0 }}
+                    >
+                      Live Demo <OpenInNew className="ml-2" fontSize="small" />
+                    </Button>
+                  )}
                   <IconButton
                     href={project.githubLink}
                     className="flex-none p-3 border-4 border-black bg-white hover:bg-[#FCEE0C] transition-colors flex items-center justify-center brutalist-shadow-sm hover:translate-x-0.5 hover:translate-y-0.5 active:translate-x-0.5 active:translate-y-0.5 active:shadow-none"
                     aria-label="View Source Code"
                     sx={{ borderRadius: 0 }}
                   >
+                    {!project.liveLink && (
+                      <span className="px-3 py-1 text-black font-bold uppercase text-xs sm:text-sm">
+                        See on Github
+                      </span>
+                    )}
                     <GitHub />
                   </IconButton>
                 </div>
